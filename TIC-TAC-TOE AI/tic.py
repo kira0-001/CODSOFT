@@ -1,4 +1,4 @@
-0def print_board(board):
+def print_board(board):
     print("-" * 10)
     for row in board:
         print(" | ".join(row))
@@ -102,3 +102,4 @@ def play_game():
             break
 if __name__ == "__main__":
     play_game()
+
